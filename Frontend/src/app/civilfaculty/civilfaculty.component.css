@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.leftside{
+    height: 100vh;
+    width: 100%;
+}
+.rightside{
+    position: absolute;
+    height: 100vh;
+    width: 71%;
+    right: 0px;
+}
+
+.leftside{
+    background: #cc99ff;
+}
+.rightside{
+    background: white;
+}
+
+.linksbar{
+    background: red;
+    position: relative;
+    margin-top: 200px;
+    height: 50px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 66px;
+}
+
+.container h1 span {
+    border: 6px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+}
+
+.button {
+    color: #313131;
+    padding: 10px 24px;
+    background: #f1f1f1;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button:hover {
+    opacity: .6;
+}
+
+.containerr
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    top: 40px;
+}
+.containerr .box1
+{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.025);
+}
+
+.containerr .box2
+{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.025);
+}
+
+.containerr .box3
+{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.025);
+}
+
+.containerr .box4
+{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.025);
+}
+
+ .box1:nth-child(1)
+{
+    transform: translateX(0);
+}
+.box2:nth-child(2)
+{
+    transform: translateX(0);
+}
+ 
+ .box1:hover:nth-child(1)
+{
+    transform: translateX(70px);
+}
+.box2:hover:nth-child(2)
+{
+    transform: translateX(70px);
+}
+.box3:nth-child(3)
+{
+    transform: translateX(0);
+}
+.box3:hover:nth-child(3)
+{
+    transform: translateX(70px);
+}
+.box4:nth-child(4)
+{
+    transform: translateX(0);
+}
+.box4:hover:nth-child(4)
+{
+    transform: translateX(70px);
+}
+
+.containerr .box1::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #3399ff;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box2::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #66ff66;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box3::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #ff9900;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box4::before
+{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #999966;
+    transition: 0.5s ease-in-out;
+}
+
+.containerr .box1:hover::before
+{
+    width: 100%;
+}
+.containerr .box2:hover::before
+{
+    width: 100%;
+}
+.containerr .box3:hover::before
+{
+    width: 100%;
+}
+.containerr .box4:hover::before
+{
+    width: 100%;
+}
+
+.containerr .box1 .content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.containerr .box2 .content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.containerr .box3 .content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.containerr .box4 .content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.containerr .box1 .content .icon
+{
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr .box2 .content .icon
+{
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerr .box3 .content .icon
+{
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerr .box4 .content .icon
+{
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerr .box1 .content .icon .fa-desktop{
+    color: #3399ff;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box2 .content .icon .fa-wrench{
+    color: #66ff66;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box3 .content .icon .fa-signal{
+    color: #ff9900;
+    transition: 0.5s ease-in-out;
+}
+.containerr .box4 .content .icon .fa-building{
+    color: #999966;
+    transition: 0.5s ease-in-out;
+}
+
+.containerr .box1:hover .content .icon .fa-desktop
+{
+    color: #000; ;
+}
+.containerr .box2:hover .content .icon .fa-wrench
+{
+    color: #000; ;
+}
+.containerr .box3:hover .content .icon .fa-signal
+{
+    color: #000; ;
+}
+.containerr .box4:hover .content .icon .fa-building
+{
+    color: #000; ;
+}
+
+#navbar2
+{
+    position: relative;
+    bottom: -20px;
+    left: 50px;
+    font-size: 1.3rem;
+}
+
+#titleheading
+{
+ position: relative;
+ left: 50px;
+ bottom: -25px;   
+}
+#options
+{
+    position: relative;
+    left: 50px;
+    bottom: -35px;
+}
+
+#civilfac {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #civilfac td, #civilfac th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #civilfac tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #civilfac tr:hover {background-color: #ddd;}
+  
+  #civilfac th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:  #999966;
+    color: white;
+  }

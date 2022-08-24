@@ -1,0 +1,19 @@
+{
+  "/ece": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/civil": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/cse": {
+    "target": "http://localhost:8000",
+    "secure": false
+  },
+  "/mec": {
+    "target": "http://localhost:8000",
+    "secure": false
+  }
+}
+
